@@ -129,16 +129,13 @@ INSERT INTO questions (question_text, options, correct_answer, quiz_id) VALUES
 
 1. **Start Apache Tomcat:**
    - Ensure Apache Tomcat is configured in Eclipse.
-   - Right-click on the project and select `Run As > Run on Server`.
+   - Right-click on the index.jsp and select `Run As > Run on Server`.
    - Choose Tomcat server and click `Finish`.
 
-2. **Access the Application:**
-   - Open your web browser and go to `http://localhost:8080/YourProjectName/`.
-
-3. **Log in or Register:**
+2. **Log in or Register:**
    - You can log in using the credentials from the `users` table or register a new account.
 
-4. **Take a Quiz:**
+3. **Take a Quiz:**
    - Select a quiz from the available list and answer the questions.
    - Submit the quiz to see your score.
 
